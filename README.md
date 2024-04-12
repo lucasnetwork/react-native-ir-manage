@@ -2,21 +2,16 @@
 
 interface for using the Infrared (IR) transmitter in Android smartphones
 
+Package based in [react-native-ir-manage](https://github.com/danielr18/react-native-ir-manager/tree/master) package updated to new arch of the react-native.
+
 ## Installation
 
 ```sh
 npm install @lucas/react-native-ir-manage
-```
 
-## Usage
+or
 
-
-```js
-import { multiply } from '@lucas/react-native-ir-manage';
-
-// ...
-
-const result = multiply(3, 7);
+yarn add @lucas/react-native-ir-manage
 ```
 
 ## Contributing
