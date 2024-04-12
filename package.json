@@ -1,6 +1,6 @@
 {
   "name": "@lucas/react-native-ir-manage",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "interface for using the Infrared (IR) transmitter in Android smartphones",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
