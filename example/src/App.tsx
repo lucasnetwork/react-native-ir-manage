@@ -5,7 +5,7 @@ import {
   hasIrEmitter,
   transmit,
   getCarrierFrequencies,
-} from '@lucas/react-native-ir-manage';
+} from 'lucas-react-native-ir-manage';
 
 export default function App() {
   const [hasIrEmitterState, setHasIrEmitterState] = React.useState<boolean>();

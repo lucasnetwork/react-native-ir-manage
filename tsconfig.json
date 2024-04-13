@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@lucas/react-native-ir-manage": ["./src/index"]
+      "lucas-react-native-ir-manage": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
