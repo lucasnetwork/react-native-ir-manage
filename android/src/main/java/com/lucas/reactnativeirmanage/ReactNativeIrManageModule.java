@@ -31,12 +31,12 @@ public class ReactNativeIrManageModule extends NativeReactNativeIrManageSpec {
 
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
-  @Override
+  @ReactMethod
   public void hasIrEmitter(Promise promise) {
         promise.resolve(manager.hasIrEmitter());
     }
 
-  @Override
+  @ReactMethod
   public void transmit(double carrierFrequency,  ReadableArray burstsPattern, Promise promise) {
     int[] pattern = new int[burstsPattern.size()];
     int value = (int)carrierFrequency;
@@ -51,7 +51,7 @@ public class ReactNativeIrManageModule extends NativeReactNativeIrManageSpec {
     }
   }
 
-  @Override
+  @ReactMethod
   public void getCarrierFrequencies(Promise promise) {
       try {
           CarrierFrequencyRange[] carrierFrequencyRanges = manager.getCarrierFrequencies();
