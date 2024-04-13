@@ -1,5 +1,5 @@
 {
-  "name": "@lucas/react-native-ir-manage",
+  "name": "lucas-react-native-ir-manage",
   "version": "0.0.1",
   "description": "interface for using the Infrared (IR) transmitter in Android smartphones",
   "main": "lib/commonjs/index",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace @lucas/react-native-ir-manage-example",
+    "example": "yarn workspace lucas-react-native-ir-manage-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -36,23 +36,19 @@
   },
   "keywords": [
     "react-native",
-    "ios",
+    "ir-manage",
     "android"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucasnetwork/react-native-ir-manager.git"
+    "url": "git+https://github.com/lucasnetwork/react-native-ir-manage.git"
   },
-  "author": "Lucas Santos Ribeiro <lucassr45@protonmail.com> (https://github.com/lucasnetwork/react-native-ir-manager)",
+  "author": "Lucas Santos Ribeiro <lucassr45@protonmail.com> (https://github.com/lucasnetwork/react-native-ir-manage)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucasnetwork/react-native-ir-manager/issues"
+    "url": "https://github.com/lucasnetwork/react-native-ir-manage/issues"
   },
-  "homepage": "https://github.com/lucasnetwork/react-native-ir-manager#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
+  "homepage": "https://github.com/lucasnetwork/react-native-ir-manage#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
@@ -84,7 +80,6 @@
   "workspaces": [
     "example"
   ],
-  "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
@@ -96,23 +91,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
-    }
   },
   "eslintConfig": {
     "root": true,

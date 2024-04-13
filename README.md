@@ -1,4 +1,4 @@
-# @lucas/react-native-ir-manage
+# lucas-react-native-ir-manage
 
 interface for using the Infrared (IR) transmitter in Android smartphones
 
@@ -7,11 +7,11 @@ Package based in [react-native-ir-manage](https://github.com/danielr18/react-nat
 ## Installation
 
 ```sh
-npm install @lucas/react-native-ir-manage
+npm install lucas-react-native-ir-manage
 
 or
 
-yarn add @lucas/react-native-ir-manage
+yarn add lucas-react-native-ir-manage
 ```
 
 ## Contributing
